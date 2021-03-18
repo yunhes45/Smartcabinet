@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="static/css/storagereceive.css" />
+
+<script src="/static/js/authentication.js"></script>
+
+</head>
+<body>
+<!-- Header -->
+<header id="header">
+    <center>
+        <h1>정보를 입력해주세요</h1>
+        <h1></h1>
+    </center>
+</header>
+
+<section>
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <script>
+            alert("{{messages[-1]}}")
+        </script>
+    {% endif %}
+{% endwith %}
+
+    <form method="post" action="/signinpass" autocomplete="off">
+
+        <center>
+            <table id="table1"  border="0">
+                <tr>
+                    <td><div id="infor">Name</div></td>
+                    <td><input class="placeholder" type="text" name="name" id="name" value="" autocomplete="off" placeholder="이름" /></td>
+                </tr> 
+                <tr>
+                    <td><div id="infor">Password</div></td>
+                    <td><input class="placeholder" type="text" name="pass" id="pass" value="" autocomplete="off" placeholder="비밀번호" /></td>
+                </tr>      
+            </table>
+            </center>
+
+            <center>
+                <input id="btn" type="submit" value="수령하기" class="primary" />
+            </center>
+    </form>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="static/css/select.css" />
+
+ <!-- <script src="static/js/last.js"></script> -->
+
+ <script src="/static/js/last.js"></script>
+		
+</head>
+
+
+<body>
+	<div class="back">
+	<!-- Header -->
+	<header id="header">
+			<h1>Woosuk Box</h1>
+	</header>
+
+	<div id="title">
+		<center>
+		<h1> 보관함을 선택해주세요 </h1>
+		</center>
+	</div>
+	
+
+<section>
+
+	<action>
+
+				<center>
+					<table id="table3" border="0">
+						<tr>
+					<td><img src="../static/css/image/cool.png" width=200 height=200 input class="buttonselect" id="cool" type="submit"/></td> 
+					<td><img src="../static/css/image/warm.png" width=200 height=200 input class="buttonselect" id="warm" type="submit" /></td>
+						</tr>
+						<tr>
+							<form method="POST" action="servo_on">
+							<td><input class="buttonselect" id="cooltext" type="submit" value="냉장고" /></td> 
+							</form>
+
+							<form method="POST" action="servo_on">
+							<td><input class="buttonselect" id="warmtext" type="submit" value="온장고" /></td>	
+						    </form>
+						</tr>
+				</table>
+				</center>
+			
+		</action>
+</section>
+</div>
+</body>
+</html>

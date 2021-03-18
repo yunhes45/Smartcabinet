@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+	background: #ffffff;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+header {
+	margin-top: 10%;
+	position: relative;
+}
+
+
+#btn {
+	margin-top: 40px;
+	width:100px;
+	height: 50px;
+	border: 3px solid white;
+}
+
+#pass {
+	font-size: 30px;
+	width:400px;
+	height: 50px;
+	padding: 10px;
+}
+
+#name {
+	font-size: 30px;
+	width:400px;
+	height: 50px;
+	padding: 10px;
+}
+
+#infor{
+	font-size: 30px;
+}
+
+td{
+	padding: 10px;
+}
+
+#btn {
+	width: 150px;
+	height: 100px;
+	font-size: 30px;
+	background-color: white;
+	border: 1px solid black;
+}
