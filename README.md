@@ -8,7 +8,6 @@
 - ![원동현](https://img.shields.io/badge/원동현-blue)
 - ![최혁수](https://img.shields.io/badge/최혁수-blue)
 - ![채현규](https://img.shields.io/badge/채현규-blue)
-- ![천호진](https://img.shields.io/badge/천호진-blue)
 
 
 <img src="https://user-images.githubusercontent.com/67222557/107233348-d56f1480-6a65-11eb-9104-20577e93db6c.PNG" width="500" height="300"></img>
